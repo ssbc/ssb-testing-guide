@@ -1,0 +1,25 @@
+{
+  "name": "ssb-testing-guide",
+  "version": "1.0.0",
+  "description": "a comprehensive guide to testing on scuttlebutt",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape *.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/ssb-testing-guide.git"
+  },
+  "author": "mix & kieran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-testing-guide/issues"
+  },
+  "homepage": "https://github.com/ssbc/ssb-testing-guide#readme",
+  "dependencies": {
+    "pull-stream": "^3.6.8",
+    "scuttle-testbot": "^1.1.6",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
