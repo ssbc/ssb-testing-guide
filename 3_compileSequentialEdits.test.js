@@ -1,6 +1,7 @@
 const test = require('tape')
 const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
+const sort = require('ssb-sort')
 
 test('edit a post', t => {
   var server = Server()
