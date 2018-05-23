@@ -1,7 +1,7 @@
 const flumeView = require('flumeview-reduce')
 
 const NAME = 'channel'
-const VERSION = 1
+const VERSION = 2
 
 module.exports = {
   name: NAME,
