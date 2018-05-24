@@ -1,4 +1,4 @@
-# Flumeview-reduce
+# Intermediate
 
 Here we'll learn how to build out a flumeview-reduce to create a subset lens on the database
 
