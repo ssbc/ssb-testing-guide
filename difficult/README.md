@@ -6,7 +6,11 @@
 We'll learn how to create a [flumeview-level](http://github.com/flumedb/flumeview-level) to create a queryable data subset of our core scuttlebutt database.
 We'll also learn how to use [bytewise](http://npmjs.com/package/bytewise) to write queries for our level view
 
-**%%TODO%%**: 
+Flumeview-level | Example
+:-----------------------------------:|:-----------------------------------:
+![](assets/flumeview-level-1.jpg) | ![](assets/flumeview-level-2.jpg)
+
+**%%TODO%%**:
 * Write more about flumeview and add links
 * Add @mix's cool pictures
 
