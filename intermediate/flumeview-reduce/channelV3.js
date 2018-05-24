@@ -25,10 +25,12 @@ module.exports = {
         },
         (msg) => {
           // map
-          var content = msg.value.content
-          var mentions = content.mentions || []
+          var { content } = msg.value
+          var mentions = [
+            ...content.mentions || [],
+            { link: content.channel }
+          ]
           // Put content.channel in list, even if null / undefined
-          mentions.push({ link: content.channel })
           channels = mentions
             // map to string
             .map(men => men.link)
