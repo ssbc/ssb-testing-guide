@@ -4,7 +4,7 @@
   "description": "a comprehensive guide to testing on scuttlebutt",
   "main": "index.js",
   "scripts": {
-    "test": "tape **/*.test.js | tap-spec"
+    "test": "tape **/**/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",

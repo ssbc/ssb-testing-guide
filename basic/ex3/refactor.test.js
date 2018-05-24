@@ -4,7 +4,7 @@ const pull = require('pull-stream')
 const sort = require('ssb-sort')
 
 
-test('Refactor edit a post', t => {
+test('[Basic] Exercise 3 - Refactor edit a post', t => {
   // Use backlinks to quickly get related messages using a root id
   Server.use(require('ssb-backlinks'))
 

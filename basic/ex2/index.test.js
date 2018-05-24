@@ -2,7 +2,7 @@ const test = require('tape')
 const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
 
-test('publish a message and get it back', t => {
+test('[Basic] Exercise 2 - Publish a message and get it back', t => {
   var server = Server()
 
   t.plan(2)
@@ -21,7 +21,7 @@ test('publish a message and get it back', t => {
   })
 })
 
-test('pull the message and compare with published', t => {
+test('[Basic] Exercise 2 - Pull the message and compare with published', t => {
   // this is a demo of using a pull-stream to listen for a message
   // not sure if useful in testing but it demonstrates a different async pattern
 

@@ -2,8 +2,8 @@ const test = require('tape')
 const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
 
-test('get a count of the number of posts to a channel', t => {
-  Server.use(require('./channelV1'))
+test('[Intermediate] Exercise 1 - Get a count of the number of posts to a channel', t => {
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)

@@ -3,7 +3,7 @@ const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
 const sort = require('ssb-sort')
 
-test('edit a post', t => {
+test('[Basic] Exercise 3 - Edit a post', t => {
   var server = Server()
 
   t.plan(1)

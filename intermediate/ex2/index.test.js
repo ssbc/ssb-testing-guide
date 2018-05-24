@@ -3,8 +3,8 @@ const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
 
 // This test is the same except we're using the V2 view
-test('get a count of the number of posts to a channel', t => {
-  Server.use(require('./channelV2'))
+test('[Intermediate] Exercise 2 - Get a count of the number of posts to a channel', t => {
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)
@@ -25,8 +25,8 @@ test('get a count of the number of posts to a channel', t => {
   )
 })
 
-test('get a count of how many times all channels have been mentioned', t => {
-  Server.use(require('./channelV2'))
+test('[Intermediate] Exercise 2 - Get a count of how many times all channels have been mentioned', t => {
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)

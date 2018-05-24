@@ -3,8 +3,8 @@ const Server = require('scuttle-testbot')
 const pull = require('pull-stream')
 
 // this test is the same except we're using the V3 view
-test('get a count of the number of posts to a channel', t => {
-  Server.use(require('./channelV3'))
+test('[Intermediate] Exercise 3 - Get a count of the number of posts to a channel', t => {
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)
@@ -26,8 +26,8 @@ test('get a count of the number of posts to a channel', t => {
 })
 
 // this test is the same except we're using the V3 view
-test('get a count of how many times all channels have been mentioned', t => {
-  Server.use(require('./channelV3'))
+test('[Intermediate] Exercise 3 - Get a count of how many times all channels have been mentioned', t => {
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)
@@ -47,7 +47,7 @@ test('get a count of how many times all channels have been mentioned', t => {
 })
 
 test('get a count of a particular channel mentions and omit duplicate mentions', t => {
-  Server.use(require('./channelV3'))
+  Server.use(require('./index'))
   const server = Server()
 
   t.plan(1)
