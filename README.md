@@ -1,5 +1,7 @@
 # SSB Testing Guide
 
+> This can also be found on git-ssb `ssb://%0h4DOgNbTfEufWGKW8RbbhCXa76U0AglQSbn/cD4Pjc=.sha256`
+
 This is the start of a collection of patterns we've found useful for doing testing in the Scuttlebutt ecosystem
 
 Areas it will hopefully cover (over time):
