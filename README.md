@@ -1,6 +1,9 @@
 # SSB Testing Guide
 
-> This can also be found on git-ssb `ssb://%0h4DOgNbTfEufWGKW8RbbhCXa76U0AglQSbn/cD4Pjc=.sha256`
+> This can be found on git-ssb `ssb://%0h4DOgNbTfEufWGKW8RbbhCXa76U0AglQSbn/cD4Pjc=.sha256`
+
+![hermit crab shells](./hermit_crab_shells.jpg)
+
 
 This is the start of a collection of patterns we've found useful for doing testing in the Scuttlebutt ecosystem
 
